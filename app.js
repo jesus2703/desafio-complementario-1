@@ -3,7 +3,7 @@
 let notaUno = parseFloat(prompt("Ingrese nota 1er parcial"));
 let notaDos = parseFloat(prompt("Ingrese nota 2do parcial"));
 let notaTres = parseFloat(prompt("Ingrese nota 3er parcial"));
-let notaCuatro = parseFloat(prompt("Ingrese nota 4tp parcial"));
+let notaCuatro = parseFloat(prompt("Ingrese nota 4to parcial"));
 let promedio = (notaUno+notaDos+notaTres+notaCuatro)/4;
 console.log(promedio);
 
