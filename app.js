@@ -8,10 +8,11 @@ let promedio = (notaUno+notaDos+notaTres+notaCuatro)/4;
 console.log(promedio);
 
 if (promedio >= 10) {
-    alert("Esta Aprobado")
+
+    alert(`El promedio es ${promedio} y esta aprobado`)
     
 } else {
 
-    alert("Esta Reprobado")
+    alert(`El promedio es ${promedio} y esta reprobado`)
     
 }
